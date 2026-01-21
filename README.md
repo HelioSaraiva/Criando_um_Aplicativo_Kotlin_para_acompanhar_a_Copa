@@ -1,42 +1,91 @@
-📱 Portfolio App - Compartilhe Seus Projetos Android!
-Este projeto é um aplicativo Android desenvolvido em Kotlin com Jetpack Compose, projetado para exibir e compartilhar seu portfólio de projetos de forma elegante e funcional. Ele demonstra como integrar APIs RESTful usando Retrofit para buscar dados de projetos e apresentá-los em uma interface de usuário moderna.
-
-
-<img width="382" height="775" alt="image" src="https://github.com/user-attachments/assets/ec967bdc-a1ba-4999-9965-803cfc7f1164" />
+Skip to content
+HenriqueFreire
+DIO
+Repository navigation
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+DIO/Bootcamps/Cognizant - Mobile Developer
+/Criando-um-Aplicativo-Kotlin-para-acompanhar-a-Copa/
+Go to file
+t
+HenriqueFreire
+HenriqueFreire
+Bootcamp Cognizant - Mobile Developer | Criando um Aplicativo Kotlin …
+a9cbb74
+ · 
+2 weeks ago
+DIO/Bootcamps/Cognizant - Mobile Developer
+/Criando-um-Aplicativo-Kotlin-para-acompanhar-a-Copa/
+Name	Last commit message	Last commit date
+..
+app
+Bootcamp Cognizant - Mobile Developer | Criando um Aplicativo Kotlin …
+2 weeks ago
+gradle
+Bootcamp Cognizant - Mobile Developer | Criando um Aplicativo Kotlin …
+2 weeks ago
+.gitignore
+Bootcamp Cognizant - Mobile Developer | Criando um Aplicativo Kotlin …
+2 weeks ago
+README.md
+Bootcamp Cognizant - Mobile Developer | Criando um Aplicativo Kotlin …
+2 weeks ago
+build.gradle.kts
+Bootcamp Cognizant - Mobile Developer | Criando um Aplicativo Kotlin …
+2 weeks ago
+gradle.properties
+Bootcamp Cognizant - Mobile Developer | Criando um Aplicativo Kotlin …
+2 weeks ago
+gradlew
+Bootcamp Cognizant - Mobile Developer | Criando um Aplicativo Kotlin …
+2 weeks ago
+gradlew.bat
+Bootcamp Cognizant - Mobile Developer | Criando um Aplicativo Kotlin …
+2 weeks ago
+settings.gradle.kts
+Bootcamp Cognizant - Mobile Developer | Criando um Aplicativo Kotlin …
+2 weeks ago
+README.md
+⚽ Copa 2026 App - Acompanhe a Copa com Kotlin e Jetpack Compose!
+Este projeto é um aplicativo Android moderno, desenvolvido em Kotlin, que permite aos usuários acompanhar os jogos da Copa do Mundo de 2026. Utilizando as mais recentes tecnologias do ecossistema Android, como Jetpack Compose para a interface do usuário e Ktor para comunicação de rede, o aplicativo oferece uma experiência fluida e responsiva.
 
 ✨ Funcionalidades
-Exibição de Projetos: Lista de projetos com informações essenciais.
-Detalhes do Projeto: Tela dedicada para cada projeto com descrições, tecnologias e links.
-Integração com API: Busca de dados de projetos de uma fonte externa (via Retrofit).
-Gerenciamento de Estado: Utilização de ViewModels para um gerenciamento de estado robusto e reativo.
-Interface Moderna: UI construída com Jetpack Compose, proporcionando uma experiência de usuário fluida e nativa.
+Visualização de Jogos: Acompanhe a programação dos jogos da Copa.
+Resultados e Placar: Veja os resultados atualizados dos jogos.
+Detalhes das Partidas: Acesse informações detalhadas sobre cada confronto.
+Interface Moderna: Desfrute de uma interface de usuário intuitiva e visualmente agradável, construída com Jetpack Compose.
+Carregamento de Imagens: Exibição eficiente de imagens (como escudos de seleções) utilizando a biblioteca Coil.
 🚀 Tecnologias Utilizadas
 Kotlin: Linguagem de programação principal.
 Android SDK: Ferramentas e APIs para desenvolvimento Android.
 Jetpack Compose: Toolkit moderno para construção de UI nativa no Android.
-Android Architecture Components:
-ViewModel: Para gerenciar e armazenar dados relacionados à UI de forma consciente ao ciclo de vida.
-Retrofit: Cliente HTTP Type-safe para Android e Java, utilizado para consumir APIs REST.
-retrofit-converter-gson: Conversor para JSON usando Gson.
-Material Icons Extended: Conjunto de ícones do Material Design.
+Ktor Client: Framework assíncrono para fazer requisições HTTP e consumir APIs.
+ktor-client-core
+ktor-client-cio (Engine para Ktor)
+ktor-client-content-negotiation
+ktor-serialization-kotlinx-json
+Kotlinx Serialization: Biblioteca para serialização/desserialização de objetos Kotlin para JSON.
+Coil: Biblioteca leve e rápida para carregamento de imagens no Android.
 Gradle Kotlin DSL: Para configuração de builds.
 🛠️ Requisitos
 Android Studio Arctic Fox (2020.3.1) ou superior.
-JDK 11 ou superior.
+JDK 17 ou superior.
 Dispositivo Android (API 24+) ou emulador.
 ⚙️ Como Abrir e Executar o Projeto
 Clone o repositório:
 
-git clone https://github.com/henrique-scc/Criando-um-App-Android-para-Compartilhar-seu-Portfolio-de-Projetos.git
+git clone https://github.com/henrique-scc/Criando-um-Aplicativo-Kotlin-para-acompanhar-a-Copa.git
 Abra no Android Studio:
 
 Abra o Android Studio.
 Selecione "Open an existing Android Studio project".
-Navegue até o diretório onde você clonou o projeto (Criando-um-App-Android-para-Compartilhar-seu-Portfolio-de-Projetos) e selecione-o.
+Navegue até o diretório onde você clonou o projeto (Criando-um-Aplicativo-Kotlin-para-acompanhar-a-Copa) e selecione-o.
 Aguarde o Gradle sincronizar o projeto.
-Configuração da API (se aplicável):
-
-Se o aplicativo depender de uma API externa, certifique-se de configurar o endpoint da API ou chaves de acesso conforme necessário (verifique o código-fonte para detalhes).
 Execute o Aplicativo:
 
 Conecte um dispositivo Android ao seu computador ou inicie um emulador.
@@ -47,3 +96,4 @@ Sinta-se à vontade para contribuir com melhorias, novas funcionalidades ou corr
 
 📄 Licença
 Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
