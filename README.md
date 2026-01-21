@@ -2,6 +2,11 @@
 
 **Repositório**: https://github.com/HelioSaraiva/Criando_um_Aplicativo_Kotlin_para_acompanhar_a_Copa
 
+--
+
+
+## 📸 Preview do App
+
 <img width="628" height="929" alt="image" src="https://github.com/user-attachments/assets/f5298cdd-0820-4b90-a835-a83e5d6be6a0" />
 
 
@@ -40,8 +45,17 @@ App Android em **Kotlin** + **Jetpack Compose** + **Ktor** para jogos da Copa 20
 3. Sync Gradle.
 4. Run (▶️) em dispositivo/emulador.
 
+
+## 🙋 Sobre o autor
+
+Desenvolvido por **[Helio Buzato]** – apaixonado por Android, APIs e interfaces bem-feitas.
+
+📧 contato: buzato@hotmail.com  
+🔗 [LinkedIn](https://linkedin.com/in/heliosaraivabuzato/) | [GitHub](https://github.com/HelioSaraiva)
+
+
 ## 🤝 Contribua
 Melhorias/bugs bem-vindos!
 
 ## 📄 Licença
-MIT - veja `LICENSE`.[attached_file:1]
+MIT - veja `LICENSE`.
